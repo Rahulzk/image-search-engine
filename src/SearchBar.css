@@ -1,0 +1,62 @@
+.search_bar{
+    display: flex;
+    width: 90vw;
+    margin: 3vmax auto;
+}
+
+.search_space input{
+    width: 80vw;
+    height: 2.5vmax;
+    border-radius: 4px;
+    font-size: larger;
+    outline: none;
+    border: none;
+}
+.search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    margin-left: 1.5vw;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.found_image{
+    display: none;  
+    margin: -2px 4.6vmax;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+img{
+    height:300px;
+    width:373px;
+    border-radius: 6px;
+    margin: 10px 10px;
+}
+
+
+.load_more{
+    display: none;
+    align-items: center;
+    justify-content: center;  
+    margin: 20px 0;
+}
+.load_button{
+    border: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    background-color: rgb(27, 27, 27);
+    border-radius: 3px;
+    font-size: 10px;
+}
